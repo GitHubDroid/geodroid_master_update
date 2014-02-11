@@ -121,6 +121,7 @@ public class GeoPaparazziActivity extends Activity {
     private SlidingDrawer slidingDrawer;
     private ProgressDialog initMapsdirDialog;
 
+    @Override
     public void onCreate( Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
         try {
@@ -257,6 +258,7 @@ public class GeoPaparazziActivity extends Activity {
         super.onPause();
     }
 
+    @Override
     protected void onResume() {
         super.onResume();
         checkActionBar();
@@ -268,6 +270,7 @@ public class GeoPaparazziActivity extends Activity {
         super.onConfigurationChanged(newConfig);
     }
 
+    @Override
     public void onWindowFocusChanged( boolean hasFocus ) {
         super.onWindowFocusChanged(hasFocus);
         checkActionBar();
@@ -475,6 +478,7 @@ public class GeoPaparazziActivity extends Activity {
         initMapsdirDialog.show();
 
         AsyncTask<String, Void, String> asyncTask = new AsyncTask<String, Void, String>(){
+            @Override
             protected String doInBackground( String... params ) {
                 try {
                     MapsDirManager.getInstance().init(GeoPaparazziActivity.this, null);
@@ -483,6 +487,7 @@ public class GeoPaparazziActivity extends Activity {
                     return "ERROR: " + e.getLocalizedMessage();
                 }
             }
+            @Override
             protected void onPostExecute( String response ) { // on UI thread!
                 Utilities.dismissProgressDialog(initMapsdirDialog);
                 if (response.startsWith("ERROR")) {
@@ -659,6 +664,7 @@ public class GeoPaparazziActivity extends Activity {
         }
     }
 
+    @Override
     protected void onActivityResult( int requestCode, int resultCode, Intent data ) {
         super.onActivityResult(requestCode, resultCode, data);
         switch( requestCode ) {
@@ -773,6 +779,7 @@ public class GeoPaparazziActivity extends Activity {
 
     private int backCount = 0;
     private long previousBackTime = System.currentTimeMillis();
+    @Override
     public boolean onKeyDown( int keyCode, KeyEvent event ) {
         // force to exit through the exit button
         // System.out.println(keyCode + "/" + KeyEvent.KEYCODE_BACK);
@@ -798,6 +805,7 @@ public class GeoPaparazziActivity extends Activity {
         return super.onKeyDown(keyCode, event);
     }
 
+    @Override
     public void finish() {
         try {
             if (actionBar != null)

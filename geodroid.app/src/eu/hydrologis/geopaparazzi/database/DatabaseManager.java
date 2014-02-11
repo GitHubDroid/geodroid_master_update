@@ -28,7 +28,7 @@ import eu.geopaparazzi.library.database.ADbHelper;
 import eu.geopaparazzi.library.database.GPLog;
 import eu.geopaparazzi.library.util.ResourcesManager;
 import eu.geopaparazzi.library.util.debug.Debug;
-import eu.hydrologis.geopaparazzi.GeopaparazziApplication;
+import eu.hydrologis.geopaparazzi.GeodroidApplication;
 
 /**
  * The database manager.
@@ -74,7 +74,7 @@ public class DatabaseManager {
      * @throws IOException  if something goes wrong.
      */
     public SQLiteDatabase getDatabase() throws IOException {
-        Context context = GeopaparazziApplication.getInstance().getApplicationContext();
+        Context context = GeodroidApplication.getInstance().getApplicationContext();
         File databaseFile;
         try {
             databaseFile = ResourcesManager.getInstance(context).getDatabaseFile();
