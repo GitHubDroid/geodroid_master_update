@@ -97,7 +97,7 @@ import eu.hydrologis.geopaparazzi.util.SecretActivity;
  *
  * @author Andrea Antonello (www.hydrologis.com)
  */
-public class GeoPaparazziActivity extends Activity {
+public class GeoDroidActivity extends Activity {
 
     private static final int MENU_ABOUT = Menu.FIRST;
     private static final int MENU_EXIT = 2;
@@ -307,7 +307,7 @@ public class GeoPaparazziActivity extends Activity {
                         public void run() {
                             ResourcesManager.setUseInternalMemory(true);
                             try {
-                                resourcesManager = ResourcesManager.getInstance(GeoPaparazziActivity.this);
+                                resourcesManager = ResourcesManager.getInstance(GeoDroidActivity.this);
                                 initIfOk();
                             } catch (Exception e) {
                                 e.printStackTrace();
@@ -481,7 +481,7 @@ public class GeoPaparazziActivity extends Activity {
             @Override
             protected String doInBackground( String... params ) {
                 try {
-                    MapsDirManager.getInstance().init(GeoPaparazziActivity.this, null);
+                    MapsDirManager.getInstance().init(GeoDroidActivity.this, null);
                     return "";
                 } catch (Exception e) {
                     return "ERROR: " + e.getLocalizedMessage();
@@ -491,7 +491,7 @@ public class GeoPaparazziActivity extends Activity {
             protected void onPostExecute( String response ) { // on UI thread!
                 Utilities.dismissProgressDialog(initMapsdirDialog);
                 if (response.startsWith("ERROR")) {
-                    Utilities.messageDialog(GeoPaparazziActivity.this, response, null);
+                    Utilities.messageDialog(GeoDroidActivity.this, response, null);
                 }
             }
         };
@@ -549,11 +549,11 @@ public class GeoPaparazziActivity extends Activity {
                 public void run() {
                     try {
                         DaoNotes.deleteLastInsertedNote();
-                        Utilities.toast(GeoPaparazziActivity.this, R.string.last_note_deleted, Toast.LENGTH_LONG);
+                        Utilities.toast(GeoDroidActivity.this, R.string.last_note_deleted, Toast.LENGTH_LONG);
                     } catch (IOException e) {
                         GPLog.error(this, e.getLocalizedMessage(), e);
                         e.printStackTrace();
-                        Utilities.toast(GeoPaparazziActivity.this, R.string.last_note_not_deleted, Toast.LENGTH_LONG);
+                        Utilities.toast(GeoDroidActivity.this, R.string.last_note_not_deleted, Toast.LENGTH_LONG);
                     }
                 }
             }, null);
@@ -910,7 +910,7 @@ public class GeoPaparazziActivity extends Activity {
                     if (!newGeopaparazziDirFile.mkdir()) {
                         throw new IOException("Unable to create the geopaparazzi folder."); //$NON-NLS-1$
                     }
-                    ResourcesManager.getInstance(GeoPaparazziActivity.this).setApplicationDir(GeoPaparazziActivity.this,
+                    ResourcesManager.getInstance(GeoDroidActivity.this).setApplicationDir(GeoDroidActivity.this,
                             newGeopaparazziDirFile.getAbsolutePath());
 
                     Intent intent = getIntent();
@@ -919,7 +919,7 @@ public class GeoPaparazziActivity extends Activity {
                 } catch (Exception e) {
                     GPLog.error(this, e.getLocalizedMessage(), e);
                     e.printStackTrace();
-                    Toast.makeText(GeoPaparazziActivity.this, e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
+                    Toast.makeText(GeoDroidActivity.this, e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
                 }
             }
         });

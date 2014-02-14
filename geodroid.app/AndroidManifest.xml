@@ -3,7 +3,7 @@
     package="eu.hydrologis.geopaparazzi"
     android:installLocation="auto"
     android:versionCode="53"
-    android:versionName="3.9.2" >
+    android:versionName="3.9.+2" >
 
     <!-- permissions -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -49,6 +49,17 @@
         android:launchMode="singleTask"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
+            
+            android:name=".SplashScreen"
+            android:configChanges="orientation"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+            <activity
             android:name=".GeoDroidActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" >
@@ -57,6 +68,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            </activity>
             <intent-filter>
                 <data
                     android:host="maps.google.com"
@@ -77,7 +89,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
-        </activity>
+        
         <activity android:name=".maps.GpsDataPropertiesActivity" >
             <intent-filter>
                 <action android:name="eu.hydrologis.geopaparazzi.maps.GPSLOG_PROPERTIES" />

@@ -37,9 +37,9 @@ public final class R {
 	}
 	public static final class drawable {
 		public static final int action_button_bg = 0x7f020007;
-		public static final int actionbar_button_bg = 0x7f020094;
-		public static final int actionbar_button_pressed_bg = 0x7f020095;
-		public static final int actionbar_button_selected_bg = 0x7f020096;
+		public static final int actionbar_button_bg = 0x7f020096;
+		public static final int actionbar_button_pressed_bg = 0x7f020097;
+		public static final int actionbar_button_selected_bg = 0x7f020098;
 		public static final int airbrush_dark = 0x7f02000b;
 		public static final int airbrush_light = 0x7f02000c;
 		public static final int check = 0x7f020017;
@@ -51,45 +51,45 @@ public final class R {
 		public static final int doodlebug = 0x7f020027;
 		public static final int fountainpen = 0x7f02002f;
 		public static final int gallery = 0x7f020030;
-		public static final int icon = 0x7f020043;
-		public static final int large_launcher_icon = 0x7f020049;
-		public static final int launcher_icon = 0x7f02004a;
-		public static final int load = 0x7f02004f;
-		public static final int markers = 0x7f020057;
-		public static final int newpage = 0x7f02005d;
-		public static final int overflow = 0x7f020061;
-		public static final int qr = 0x7f020068;
-		public static final int scribble = 0x7f020084;
-		public static final int share = 0x7f02008a;
-		public static final int transparent = 0x7f02008d;
-		public static final int transparent_tool = 0x7f02008e;
-		public static final int uncledan = 0x7f02008f;
-		public static final int uncledan_save = 0x7f020090;
-		public static final int undo = 0x7f020091;
+		public static final int icon = 0x7f020044;
+		public static final int large_launcher_icon = 0x7f02004a;
+		public static final int launcher_icon = 0x7f02004b;
+		public static final int load = 0x7f020050;
+		public static final int markers = 0x7f020058;
+		public static final int newpage = 0x7f02005e;
+		public static final int overflow = 0x7f020062;
+		public static final int qr = 0x7f020069;
+		public static final int scribble = 0x7f020085;
+		public static final int share = 0x7f02008b;
+		public static final int transparent = 0x7f02008f;
+		public static final int transparent_tool = 0x7f020090;
+		public static final int uncledan = 0x7f020091;
+		public static final int uncledan_save = 0x7f020092;
+		public static final int undo = 0x7f020093;
 	}
 	public static final class id {
 		public static final int about = 0x7f0c0100;
 		public static final int actionbar = 0x7f0c001e;
 		public static final int actionbar_contents = 0x7f0c001f;
 		public static final int airbrush = 0x7f0c0002;
-		public static final int airbrush_marker = 0x7f0c0120;
+		public static final int airbrush_marker = 0x7f0c0121;
 		public static final int clear = 0x7f0c0024;
 		public static final int colors = 0x7f0c003e;
 		public static final int debug = 0x7f0c0021;
-		public static final int fat_marker = 0x7f0c011d;
+		public static final int fat_marker = 0x7f0c011e;
 		public static final int feltTip = 0x7f0c0001;
-		public static final int felttip_marker = 0x7f0c011f;
+		public static final int felttip_marker = 0x7f0c0120;
 		public static final int fountainpen = 0x7f0c0003;
-		public static final int fountainpen_marker = 0x7f0c0121;
+		public static final int fountainpen_marker = 0x7f0c0122;
 		public static final int html = 0x7f0c0013;
 		public static final int hud = 0x7f0c00ba;
 		public static final int load = 0x7f0c0023;
 		public static final int logo = 0x7f0c0011;
 		public static final int logotype = 0x7f0c0020;
 		public static final int overflow = 0x7f0c0027;
-		public static final int pen_medium = 0x7f0c011b;
-		public static final int pen_thick = 0x7f0c011c;
-		public static final int pen_thin = 0x7f0c011a;
+		public static final int pen_medium = 0x7f0c011c;
+		public static final int pen_thick = 0x7f0c011d;
+		public static final int pen_thin = 0x7f0c011b;
 		public static final int root = 0x7f0c00b8;
 		public static final int save = 0x7f0c0025;
 		public static final int share = 0x7f0c0026;
@@ -97,7 +97,7 @@ public final class R {
 		public static final int tools = 0x7f0c00b9;
 		public static final int undo = 0x7f0c0022;
 		public static final int whiteboard = 0x7f0c0000;
-		public static final int whiteboard_marker = 0x7f0c011e;
+		public static final int whiteboard_marker = 0x7f0c011f;
 	}
 	public static final class layout {
 		public static final int about_box = 0x7f030001;
@@ -106,7 +106,7 @@ public final class R {
 		public static final int colors_vertical = 0x7f03000e;
 		public static final int main = 0x7f030026;
 		public static final int overflow_menu = 0x7f030035;
-		public static final int tools = 0x7f03003f;
+		public static final int tools = 0x7f030040;
 	}
 	public static final class string {
 		public static final int about_text = 0x7f0800e4;
