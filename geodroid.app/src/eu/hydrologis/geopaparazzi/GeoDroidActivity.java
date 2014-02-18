@@ -811,7 +811,7 @@ public class GeoDroidActivity extends Activity {
             if (actionBar != null)
                 actionBar.cleanup();
             if (GPLog.LOG)
-                Log.i("GEOPAPARAZZIACTIVITY", "Finish called!"); //$NON-NLS-1$
+                Log.i("GEODROIDACTIVITY", "Finish called!"); //$NON-NLS-1$
 
             TagsManager.reset(this);
 

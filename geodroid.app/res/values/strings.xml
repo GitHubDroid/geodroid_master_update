@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="yes">yes</string>
-    <string name="no">no</string>
-    <string name="app_name">GeoDroid</string>
-    <string name="notesvisibilityToggle">Toggle notes visibility.</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="app_name">Geo-Droid</string>
+    <string name="notesvisibilityToggle">Toggle Map Notes Visibility.</string>
     <string name="kmlsaved">Data successfully exported to: </string>
     <string name="kmlnonsaved">An error occurred during the data export!</string>
-    <string name="loggingoff">Stopped all sensors.</string>
+    <string name="loggingoff">Stopped all Sensors.</string>
     <string name="nogps_data">No gps fix yet! No Data!</string>
     <string name="about">About</string>
     <string name="exit">Exit</string>
-    <string name="utctime">time: </string>
-    <string name="altim">altim: </string>
-    <string name="lat">lat: </string>
-    <string name="lon">lon: </string>
-    <string name="azimuth">azimuth: </string>
-    <string name="go_to">Go to</string>
-    <string name="goto_coordinate">go to coordinate</string>
-    <string name="geocoding">geocoding</string>
+    <string name="utctime">Time: </string>
+    <string name="altim">Altim: </string>
+    <string name="lat">Lat: </string>
+    <string name="lon">Lon: </string>
+    <string name="azimuth">Azimuth: </string>
+    <string name="go_to">GoTo</string>
+    <string name="goto_coordinate">GoTo Coordinate</string>
+    <string name="geocoding">Geocoding</string>
     <string name="prompt_gpsenable">GPS is disabled! Would you like to enable it?</string>
-    <string name="width_label">width</string>
-    <string name="color_label">color</string>
-    <string name="mainmenu_kmlexport">export</string>
-    <string name="mainmenu_import">import</string>
-    <string name="mainmenu_gpsdataselect">Gps data list</string>
+    <string name="width_label">Width</string>
+    <string name="color_label">Color</string>
+    <string name="mainmenu_kmlexport">Export</string>
+    <string name="mainmenu_import">Import</string>
+    <string name="mainmenu_gpsdataselect">Work-Order Note Map Data Options</string>
     <string name="mainmenu_preferences">Settings</string>
-    <string name="mainmenu_merge">merge selected logs</string>
+    <string name="mainmenu_merge">Merge Selected Logs</string>
     <string name="gpslogproperty">Properties for: </string>
     <string name="gpslog_chart">Chart</string>
-    <string name="gpslog_zoom">zoom to</string>
+    <string name="gpslog_zoom">Zoom To</string>
     <string name="gpslog_delete">Delete</string>
     <string name="mapproperty">Properties for: </string>
-    <string name="map_zoom">Zoom to the map</string>
-    <string name="map_delete">Delete the map</string>
-    <string name="gps_preferences">GPS preferences</string>
+    <string name="map_zoom">Zoom to the Map</string>
+    <string name="map_delete">Delete the Map</string>
+    <string name="gps_preferences">GPS Preferences</string>
     <string name="gps_logging_distance">Min GPS Logging Distance</string>
     <string name="gps_logging_interval">Min GPS Logging Interval</string>
     <string name="gps_use_android_level">Use at android level (saves battery, needs restart)</string>
@@ -85,13 +85,13 @@
     <string name="delete_visible_bookmarks_title">DELETE BOOKMARKS</string>
     <string name="delete_visible_bookmarks_prompt">Do you really want to remove all visible bookmarks? This can not be undone.</string>
     <string name="gps_searching_fix">GPS is trying to acquire fix.</string>
-    <string name="bookmarks_list_rename">Rename the Bookmark</string>
+    <string name="bookmarks_list_rename">Rename the Location</string>
     <string name="mapsactivity_menu_toggle_scalebar">Toggle Scalebar</string>
     <string name="mapsactivity_menu_tilesource">Select Basemap</string>
-    <string name="mapsactivity_delete_bookmarks">Deleting {0} Bookmarks…</string>
+    <string name="mapsactivity_delete_bookmarks">Deleting {0} Locations…</string>
     <string name="mapsactivity_delete_notes">Deleting {0} Notes…</string>
-    <string name="mapsactivity_new_bookmark">New Bookmark</string>
-    <string name="mapsactivity_enter_bookmark_name">Enter a name for the new bookmark (optional)</string>
+    <string name="mapsactivity_new_bookmark">New Location</string>
+    <string name="mapsactivity_enter_bookmark_name">Enter a name for the new location (optional)</string>
     <string name="maptagsactivity_error_reading_tags">Error in reading tags</string>
 
     <!-- added after 2.3.1 -->
@@ -100,9 +100,9 @@
     <!-- added after 2.4.3 -->
     <string name="imagesvisibilityToggle">Toggle Images Visibility</string>
     <string name="imagefromgps">Map Center Image</string>
-    <string name="notefromgps">Map Center Note</string>
+    <string name="notefromgps">Map Center Work Order</string>
     <string name="quicknotes">MAP CENTER NOTES</string>
-    <string name="formnotes">FORM BASED NOTES</string>
+    <string name="formnotes">WORK ORDER FORMS</string>
 
     <!-- added after 2.5.0 -->
     <string name="an_error_occurred_while_creating_the_chart_">An ERROR occurred while creating the chart.</string>
@@ -122,9 +122,12 @@
     <string name="available_only_with_network">This function is available only with an active network connection.</string>
     <string name="error_osm_server">An ERROR occurred while connecting to the OSM server. Please check your login and password. It is also possible that the OSM server is not available.</string>
     <string name="check_valid_field">Please check that the field \"{0}\" is valid.</string>
-    <string name="view_in_mixare">View in Mixare</string>
+     
+<!--  Mixare Removal -->
+<!--  <string name="view_in_mixare">View in Mixare</string> -->
+    
     <string name="gps_use_coarse">Use network based position instead of GPS (REQUIRES RESTART)</string>
-    <string name="type_to_filter">Type to Filter</string>
+    <string name="type_to_filter">Type to Locate</string>
     <string name="geopapcloud_preferences">GeoDroid-Cloud Preferences</string>
     <string name="geopapcloud_user_label">Username</string>
     <string name="geopapcloud_password_label">Password</string>
@@ -147,17 +150,17 @@
     <string name="chosen_project_exists">The chosen project name already exists, please choose another name</string>
     <string name="no_external_sdcard_for_db_renderer">Database rendering is supported only from external storage. Could not find external storage, is one available?</string>
     <string name="no_map_files_found_go_online">No map files were found in the /sdcard/maps folder. Switching to online maps.\nMaps can be downloaded from: http://download.mapsforge.org</string>
-    <string name="select_map_to_use">Select base map to use</string>
+    <string name="select_map_to_use">Select BaseMap to Use</string>
     <string name="no_map_file_found_going_to_mapnik">Could not find map file, switching to MAPNIK tile source.</string>
     <string name="enter_project_description">Enter a description for the project</string>
     <string name="no_images">No Images</string>
-    <string name="with_images">With Images</string>
-    <string name="successfully_imported_bookmarks">"Successfully imported bookmarks: "</string>
-    <string name="error_bookmarks_import">An ERROR occurred while importing the bookmarks.</string>
-    <string name="no_bookmarks_csv">Could not find a bookmarks.csv file in the sdcard root. Please place your bookmarks there to import them.</string>
+    <string name="with_images">Contains Images</string>
+    <string name="successfully_imported_bookmarks">&quot;Successfully imported LOCATIONS and  POI&quot;</string>
+    <string name="error_bookmarks_import">An ERROR occurred while importing the LOCATIONS and POI.</string>
+    <string name="no_bookmarks_csv">Could not find a locations and POI CSV file in the sdcard root. Please place your bookmarks there to import them.</string>
     <string name="center_on_map">Center on Base Map</string>
     <string name="proximity_radius">Proximity Radius</string>
-    <string name="add_proximity_radius">Add proximity alert radius in meters.</string>
+    <string name="add_proximity_radius">Add proximity alert radius.</string>
     <string name="sent_sms">Sent SMS : </string>
     <string name="send_data">Send Data</string>
     <string name="found_no_data_to_send">Found NO data to send in the current visible map.</string>
@@ -165,7 +168,7 @@
     <string name="no_message_sent">No Message Sent.</string>
     <string name="logs_will_be_merged"> Logs will be merged together in this operation. Continue?</string>
     <string name="distance">Distance: </string>
-    <string name="imported_notes_and_bookmarks">Imported {0} notes and {1} bookmarks.</string>
+    <string name="imported_notes_and_bookmarks">Imported {0} workorder notes and {1} locations/poi</string>
     <string name="could_not_open_sms">Could not open the passed SMS data URI.</string>
     <string name="start_">Start: </string>
     <string name="end_">End: </string>
@@ -181,19 +184,19 @@
     <string name="custom_sdcard_path">Custom SDCARD Path</string>
     <string name="opacity">Opacity</string>
     <string name="size">Size</string>
-    <string name="notes_properties">Notes Properties</string>
+    <string name="notes_properties">Work-Order Notes Properties</string>
     <string name="visibility">Visibility</string>
     <string name="custom_icon_properties">Custom Icon Properties</string>
     <string name="use_custom">Use Custom</string>
     <string name="labels">Labels</string>
-    <string name="show_labels">Show Labels</string>
+    <string name="show_labels">Show Work-Order Notes Labels</string>
     <string name="halo">Halo</string>
     <string name="screen_preferences">Screen Preferences</string>
     <string name="cross_properties_summary">Properties of the cross used to place notes.</string>
     <string name="cross_properties">Center Cross</string>
     <string name="color">Color</string>
-    <string name="prompt_delete_note">Are you sure you want to delete the note? This can not be undone.</string>
-    <string name="prompt_delete_bookmark">Are you sure you want to delete the bookmark? This can not be undone.</string>
+    <string name="prompt_delete_note">Are you sure you want to delete the workorder note? This can not be undone.</string>
+    <string name="prompt_delete_bookmark">Are you sure you want to delete the location or poi? This can not be undone.</string>
     <string name="keep_use_imperial">Use Imperial Units</string>
     <string name="keep_use_imperial_sum">Uses Imperial units instead of Metric where possible.</string>
     <string name="satellites">Satellites</string>
