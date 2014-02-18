@@ -76,7 +76,8 @@ public class SliderDrawView extends View {
     private float lastX = -1;
     private float lastY = -1;
 
-    private boolean doImperial = false;
+    // Default Imperial
+    private boolean doImperial = true;
 
     private float measuredDistance = Float.NaN;
     private String distanceString;
@@ -105,7 +106,8 @@ public class SliderDrawView extends View {
         super(context, attrs);
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
-        doImperial = preferences.getBoolean(Constants.PREFS_KEY_IMPERIAL, false);
+        // Default Imperial
+        doImperial = preferences.getBoolean(Constants.PREFS_KEY_IMPERIAL, true);
 
         measurePaint.setAntiAlias(true);
         measurePaint.setColor(Color.DKGRAY);
@@ -310,7 +312,7 @@ public class SliderDrawView extends View {
             infoProgressDialog = new ProgressDialog(context);
             infoProgressDialog.setCancelable(true);
             infoProgressDialog.setTitle("INFO");
-            infoProgressDialog.setMessage("Extracting information...");
+            infoProgressDialog.setMessage("Getting Layer Information...");
             infoProgressDialog.setCancelable(true);
             infoProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
             infoProgressDialog.setProgress(0);
