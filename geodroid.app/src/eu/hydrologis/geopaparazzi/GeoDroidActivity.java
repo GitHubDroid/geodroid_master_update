@@ -202,7 +202,7 @@ public class GeoDroidActivity extends Activity {
                 Utilities
                         .messageDialog(
                                 this,
-                                "Could not open the passed URI. Geopaparazzi is able to open only GeoSMS URIs that contain a part like: ...&q=46.068941,11.169849&GeoSMS ",
+                                "Could not open the passed URI. Geodroid is able to open only GeoSMS URIs that contain a part like: ...&q=46.068941,11.169849&GeoSMS ",
                                 null);
             }
         }
@@ -660,7 +660,7 @@ public class GeoDroidActivity extends Activity {
         try {
             startActivityForResult(new Intent(this, MapsDirTreeViewList.class), MAPSDIR_FILETREE);
         } catch (Exception e) {
-            GPLog.androidLog(4, "GeoPaparazziActivity -E-> failed[startActivity(new Intent(this,MapsDirTreeViewList.class));]", e);
+            GPLog.androidLog(4, "GeoDroidActivity -E-> failed[startActivity(new Intent(this,MapsDirTreeViewList.class));]", e);
         }
     }
 
@@ -908,7 +908,7 @@ public class GeoDroidActivity extends Activity {
                     DatabaseManager.getInstance().closeDatabase();
                     File newGeopaparazziDirFile = new File(applicationParentDir.getAbsolutePath(), newName);
                     if (!newGeopaparazziDirFile.mkdir()) {
-                        throw new IOException("Unable to create the geopaparazzi folder."); //$NON-NLS-1$
+                        throw new IOException("Unable to create the geodroid folder."); //$NON-NLS-1$
                     }
                     ResourcesManager.getInstance(GeoDroidActivity.this).setApplicationDir(GeoDroidActivity.this,
                             newGeopaparazziDirFile.getAbsolutePath());

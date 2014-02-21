@@ -84,7 +84,7 @@ public interface Constants {
     /**
      * 
      */
-    public static final String GEOPAPARAZZI = "geopaparazzi";
+    public static final String GEOPAPARAZZI = "geodroid";
     /**
      * 
      */
