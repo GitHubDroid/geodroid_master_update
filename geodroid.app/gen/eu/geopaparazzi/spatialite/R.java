@@ -71,13 +71,13 @@ public final class R {
 		public static final int dialog_background = 0x7f020030;
 		public static final int form_text_color = 0x7f020039;
 		public static final int goto_position = 0x7f02003c;
-		public static final int ic_launcher_bluegps = 0x7f020043;
-		public static final int ic_stat_notify = 0x7f020050;
-		public static final int list_down = 0x7f020062;
-		public static final int list_up = 0x7f020063;
-		public static final int list_zoomto = 0x7f020064;
-		public static final int package_download = 0x7f020078;
-		public static final int properties = 0x7f02007d;
+		public static final int ic_launcher_bluegps = 0x7f020045;
+		public static final int ic_stat_notify = 0x7f020052;
+		public static final int list_down = 0x7f020065;
+		public static final int list_up = 0x7f020066;
+		public static final int list_zoomto = 0x7f020067;
+		public static final int package_download = 0x7f02007b;
+		public static final int properties = 0x7f020080;
 	}
 	public static final class id {
 		public static final int aboutview = 0x7f0c0010;

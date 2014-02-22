@@ -867,7 +867,7 @@ public class GeoDroidActivity extends Activity {
         final String projectExistingString = getString(eu.hydrologis.geopaparazzi.R.string.chosen_project_exists);
 
         final File applicationParentDir = resourcesManager.getApplicationParentDir();
-        final String newGeopaparazziDirName = Constants.GEOPAPARAZZI
+        final String newGeopaparazziDirName = Constants.GEODROID
                 + "_" + TimeUtilities.INSTANCE.TIMESTAMPFORMATTER_LOCAL.format(new Date()); //$NON-NLS-1$
 
         final Dialog dialog = new Dialog(this);

@@ -37,9 +37,9 @@ public final class R {
 	}
 	public static final class drawable {
 		public static final int action_button_bg = 0x7f02000a;
-		public static final int actionbar_button_bg = 0x7f0200ab;
-		public static final int actionbar_button_pressed_bg = 0x7f0200ac;
-		public static final int actionbar_button_selected_bg = 0x7f0200ad;
+		public static final int actionbar_button_bg = 0x7f0200ae;
+		public static final int actionbar_button_pressed_bg = 0x7f0200af;
+		public static final int actionbar_button_selected_bg = 0x7f0200b0;
 		public static final int airbrush_dark = 0x7f02000e;
 		public static final int airbrush_light = 0x7f02000f;
 		public static final int check = 0x7f02001e;
@@ -51,21 +51,21 @@ public final class R {
 		public static final int doodlebug = 0x7f020032;
 		public static final int fountainpen = 0x7f02003a;
 		public static final int gallery = 0x7f02003b;
-		public static final int icon = 0x7f020054;
-		public static final int large_launcher_icon = 0x7f02005f;
-		public static final int launcher_icon = 0x7f020060;
-		public static final int load = 0x7f020065;
-		public static final int markers = 0x7f02006d;
-		public static final int newpage = 0x7f020073;
-		public static final int overflow = 0x7f020077;
-		public static final int qr = 0x7f02007e;
-		public static final int scribble = 0x7f02009a;
-		public static final int share = 0x7f0200a0;
-		public static final int transparent = 0x7f0200a4;
-		public static final int transparent_tool = 0x7f0200a5;
-		public static final int uncledan = 0x7f0200a6;
-		public static final int uncledan_save = 0x7f0200a7;
-		public static final int undo = 0x7f0200a8;
+		public static final int icon = 0x7f020056;
+		public static final int large_launcher_icon = 0x7f020062;
+		public static final int launcher_icon = 0x7f020063;
+		public static final int load = 0x7f020068;
+		public static final int markers = 0x7f020070;
+		public static final int newpage = 0x7f020076;
+		public static final int overflow = 0x7f02007a;
+		public static final int qr = 0x7f020081;
+		public static final int scribble = 0x7f02009d;
+		public static final int share = 0x7f0200a3;
+		public static final int transparent = 0x7f0200a7;
+		public static final int transparent_tool = 0x7f0200a8;
+		public static final int uncledan = 0x7f0200a9;
+		public static final int uncledan_save = 0x7f0200aa;
+		public static final int undo = 0x7f0200ab;
 	}
 	public static final class id {
 		public static final int about = 0x7f0c0100;
