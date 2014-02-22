@@ -36,7 +36,7 @@ public class GeodroidApplication extends Application {
         Log.i("TRACKOIDAPPLICATION", "ACRA Initialized.");
 
         if (GPLog.LOG_ANDROID) {
-            Log.i(getClass().getSimpleName(), "GeodroidApplication singleton created.");
+            Log.i(getClass().getSimpleName(), "Geodroid Application singleton created.");
         }
     }
 

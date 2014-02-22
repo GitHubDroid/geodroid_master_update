@@ -56,7 +56,7 @@ public class GPLog {
     /**
      * 
      */
-    public static final String ERROR_TAG = "ERROR_GEOPAPARAZZI";
+    public static final String ERROR_TAG = "ERROR_GEODROID";
 
     /**
      * 
@@ -78,7 +78,7 @@ public class GPLog {
     /**
      * Global default log tag (used in {@link #androidLog(int, String)} and {@link #androidLog(int, String, Throwable)}.
      */
-    public static String GLOBAL_LOG_TAG = "GEOPAPARAZZI";
+    public static String GLOBAL_LOG_TAG = "GEODROID";
 
     /**
      * Global default log level (used in {@link #androidLog(int, String)} and {@link #androidLog(int, String, Throwable)}.
