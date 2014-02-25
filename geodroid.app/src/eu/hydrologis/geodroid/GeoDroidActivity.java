@@ -1,21 +1,4 @@
-/*
- * Geopaparazzi - Digital field mapping on Android based devices
- * Copyright (C) 2010  HydroloGIS (www.hydrologis.com)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-package eu.hydrologis.geopaparazzi;
+package eu.hydrologis.geodroid;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -93,9 +76,9 @@ import eu.hydrologis.geopaparazzi.util.QuickActionsFactory;
 import eu.hydrologis.geopaparazzi.util.SecretActivity;
 
 /**
- * The main {@link Activity activity} of GeoPaparazzi.
+ * The main {@link Activity activity} of GeoDroid.
  *
- * @author Andrea Antonello (www.hydrologis.com)
+ * @author root
  */
 public class GeoDroidActivity extends Activity {
 
@@ -242,12 +225,12 @@ public class GeoDroidActivity extends Activity {
                         }
 
                         Utilities.messageDialog(this, MessageFormat.format(
-                                getString(eu.hydrologis.geopaparazzi.R.string.imported_notes_and_bookmarks), notesNum,
-                                bookmarksNum), null);
+                                getString(eu.hydrologis.geodroid.R.string.imported_notes_and_bookmarks), notesNum, bookmarksNum),
+                                null);
                     }
                 }
             } catch (Exception e) {
-                Utilities.messageDialog(this, getString(eu.hydrologis.geopaparazzi.R.string.could_not_open_sms), null);
+                Utilities.messageDialog(this, getString(eu.hydrologis.geodroid.R.string.could_not_open_sms), null);
             }
         }
     }
@@ -302,7 +285,7 @@ public class GeoDroidActivity extends Activity {
         }
 
         if (resourcesManager == null) {
-            Utilities.yesNoMessageDialog(this, getString(eu.hydrologis.geopaparazzi.R.string.no_sdcard_use_internal_memory),
+            Utilities.yesNoMessageDialog(this, getString(eu.hydrologis.geodroid.R.string.no_sdcard_use_internal_memory),
                     new Runnable(){
                         public void run() {
                             ResourcesManager.setUseInternalMemory(true);
@@ -333,7 +316,7 @@ public class GeoDroidActivity extends Activity {
             });
             return;
         }
-        setContentView(R.layout.geopap_main);
+        setContentView(R.layout.geodroid_main);
 
         final SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
         GPLogPreferencesHandler.checkLog(preferences);
@@ -431,7 +414,7 @@ public class GeoDroidActivity extends Activity {
         if (doOsmPref)
             OsmUtilities.handleOsmTagsDownload(this);
 
-        Utilities.toast(this, getString(eu.hydrologis.geopaparazzi.R.string.loaded_project_in)
+        Utilities.toast(this, getString(eu.hydrologis.geodroid.R.string.loaded_project_in)
                 + resourcesManager.getApplicationDir().getAbsolutePath(), Toast.LENGTH_LONG);
 
         // check for screen on
@@ -863,8 +846,8 @@ public class GeoDroidActivity extends Activity {
     // }
 
     private void resetData() {
-        final String enterNewProjectString = getString(eu.hydrologis.geopaparazzi.R.string.enter_a_name_for_the_new_project);
-        final String projectExistingString = getString(eu.hydrologis.geopaparazzi.R.string.chosen_project_exists);
+        final String enterNewProjectString = getString(eu.hydrologis.geodroid.R.string.enter_a_name_for_the_new_project);
+        final String projectExistingString = getString(eu.hydrologis.geodroid.R.string.chosen_project_exists);
 
         final File applicationParentDir = resourcesManager.getApplicationParentDir();
         final String newGeopaparazziDirName = Constants.GEODROID

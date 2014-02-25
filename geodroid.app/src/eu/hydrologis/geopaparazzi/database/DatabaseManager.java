@@ -28,7 +28,7 @@ import eu.geopaparazzi.library.database.ADbHelper;
 import eu.geopaparazzi.library.database.GPLog;
 import eu.geopaparazzi.library.util.ResourcesManager;
 import eu.geopaparazzi.library.util.debug.Debug;
-import eu.hydrologis.geopaparazzi.GeodroidApplication;
+import eu.hydrologis.geodroid.GeodroidApplication;
 
 /**
  * The database manager.

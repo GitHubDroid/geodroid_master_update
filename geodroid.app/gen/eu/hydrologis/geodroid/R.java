@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package eu.hydrologis.geopaparazzi;
+package eu.hydrologis.geodroid;
 
 public final class R {
     public static final class anim {
@@ -273,180 +273,156 @@ containing a value of this type.
         public static final int action_bar_compass=0x7f020002;
         public static final int action_bar_info=0x7f020003;
         public static final int action_bar_logo=0x7f020004;
-        public static final int action_bar_logo_old_24=0x7f020005;
-        public static final int action_bar_logo_old_32=0x7f020006;
-        public static final int action_bar_logo_old_48=0x7f020007;
-        public static final int action_bar_menu=0x7f020008;
-        public static final int action_bar_note=0x7f020009;
-        public static final int action_button_bg=0x7f02000a;
-        public static final int action_item_selected=0x7f02000b;
-        public static final int actionbar_button_bg=0x7f0200ae;
-        public static final int actionbar_button_pressed_bg=0x7f0200af;
-        public static final int actionbar_button_selected_bg=0x7f0200b0;
-        public static final int addbookmark=0x7f02000c;
-        public static final int addnote=0x7f02000d;
-        public static final int airbrush_dark=0x7f02000e;
-        public static final int airbrush_light=0x7f02000f;
-        public static final int battery=0x7f020010;
-        public static final int battery_old_36=0x7f020011;
-        public static final int battery_old_48=0x7f020012;
-        public static final int battery_old_72=0x7f020013;
-        public static final int bookmark=0x7f020014;
-        public static final int bookmark_old_32=0x7f020015;
-        public static final int bookmarkslist=0x7f020016;
-        public static final int border_1px=0x7f020017;
-        public static final int border_black_1px=0x7f020018;
-        public static final int bubble=0x7f020019;
-        public static final int button_background_drawable=0x7f02001a;
-        public static final int buttoncircle=0x7f02001b;
-        public static final int buttoncirclezoomin=0x7f02001c;
-        public static final int buttoncirclezoomout=0x7f02001d;
-        public static final int check=0x7f02001e;
-        public static final int checks_light=0x7f02001f;
-        public static final int checks_small_dark=0x7f020020;
-        public static final int circle=0x7f020021;
-        public static final int circle_1bpp=0x7f020022;
-        public static final int current_position=0x7f020023;
-        public static final int dashboard_export_item=0x7f020024;
-        public static final int dashboard_import_item=0x7f020025;
-        public static final int dashboard_log_item=0x7f020026;
-        public static final int dashboard_map_item=0x7f020027;
-        public static final int dashboard_map_item_old_128=0x7f020028;
-        public static final int dashboard_map_item_old_240=0x7f020029;
-        public static final int dashboard_map_item_old_64=0x7f02002a;
-        public static final int dashboard_map_item_old_85=0x7f02002b;
-        public static final int dashboard_note_item=0x7f02002c;
-        public static final int dashboard_undonote_item=0x7f02002d;
-        public static final int deletebookmark=0x7f02002e;
-        public static final int deletenote=0x7f02002f;
-        public static final int dialog_background=0x7f020030;
-        public static final int divider=0x7f020031;
-        public static final int doodlebug=0x7f020032;
-        public static final int export_bookmarks=0x7f020033;
-        public static final int export_cloud=0x7f020034;
-        public static final int export_gpx=0x7f020035;
-        public static final int export_kmz=0x7f020036;
-        public static final int folder_closed=0x7f020037;
-        public static final int folder_open=0x7f020038;
-        public static final int form_text_color=0x7f020039;
-        public static final int fountainpen=0x7f02003a;
-        public static final int gallery=0x7f02003b;
-        public static final int goto_position=0x7f02003c;
-        public static final int gps_background_hasfix_notlogging=0x7f02003d;
-        public static final int gps_background_logging=0x7f02003e;
-        public static final int gps_background_notlogging=0x7f02003f;
-        public static final int gps_background_off=0x7f020040;
-        public static final int gradient_background=0x7f020041;
-        public static final int ic_launcher=0x7f020042;
-        public static final int ic_launcher2=0x7f020043;
-        public static final int ic_launcher2_old=0x7f020044;
-        public static final int ic_launcher_bluegps=0x7f020045;
-        public static final int ic_launcher_old_144=0x7f020046;
-        public static final int ic_launcher_old_192=0x7f020047;
-        public static final int ic_launcher_old_48=0x7f020048;
-        public static final int ic_launcher_old_72=0x7f020049;
-        public static final int ic_launcher_old_96=0x7f02004a;
-        public static final int ic_menu_compass=0x7f02004b;
-        public static final int ic_menu_minimap=0x7f02004c;
-        public static final int ic_menu_removestar=0x7f02004d;
-        public static final int ic_menu_scalebar=0x7f02004e;
-        public static final int ic_menu_select=0x7f02004f;
-        public static final int ic_menu_tilesource=0x7f020050;
-        public static final int ic_menu_unselect=0x7f020051;
-        public static final int ic_stat_notify=0x7f020052;
-        public static final int ic_tab_alertsign_selected=0x7f020053;
-        public static final int ic_tab_goto_selected=0x7f020054;
-        public static final int ic_tab_rename_selected=0x7f020055;
-        public static final int icon=0x7f020056;
-        public static final int icon2_old=0x7f020057;
-        public static final int icon_datasource=0x7f020058;
-        public static final int icon_old_36=0x7f020059;
-        public static final int icon_old_48=0x7f02005a;
-        public static final int icon_old_72=0x7f02005b;
-        public static final int image=0x7f02005c;
-        public static final int infomode=0x7f02005d;
-        public static final int infomode_on=0x7f02005e;
-        public static final int information=0x7f02005f;
-        public static final int information_old_16=0x7f020060;
-        public static final int information_old_32=0x7f020061;
-        public static final int large_launcher_icon=0x7f020062;
-        public static final int launcher_icon=0x7f020063;
-        public static final int left=0x7f020064;
-        public static final int list_down=0x7f020065;
-        public static final int list_up=0x7f020066;
-        public static final int list_zoomto=0x7f020067;
-        public static final int load=0x7f020068;
-        public static final int mapsdir_treeview_bkgnd_normal=0x7f020069;
-        public static final int mapsdir_treeview_bkgnd_pressed=0x7f02006a;
-        public static final int mapsdir_treeview_bkgnd_transparent=0x7f02006b;
-        public static final int mapsdir_treeview_divider=0x7f02006c;
-        public static final int mapsdir_treeview_options_button_bkgnd=0x7f02006d;
-        public static final int marker_green=0x7f02006e;
-        public static final int marker_red=0x7f02006f;
-        public static final int markers=0x7f020070;
-        public static final int max=0x7f020071;
-        public static final int measuremode=0x7f020072;
-        public static final int measuremode_on=0x7f020073;
-        public static final int menu=0x7f020074;
-        public static final int min=0x7f020075;
-        public static final int newpage=0x7f020076;
-        public static final int noteslist=0x7f020077;
-        public static final int osm=0x7f020078;
-        public static final int osmcategory_button_drawable=0x7f020079;
-        public static final int overflow=0x7f02007a;
-        public static final int package_download=0x7f02007b;
-        public static final int panic=0x7f02007c;
-        public static final int panic_button_drawable=0x7f02007d;
-        public static final int photo=0x7f02007e;
-        public static final int progress_vertical=0x7f02007f;
-        public static final int properties=0x7f020080;
-        public static final int qr=0x7f020081;
-        public static final int quickaction_arrow_down=0x7f020082;
-        public static final int quickaction_arrow_up=0x7f020083;
-        public static final int quickaction_audio=0x7f020084;
-        public static final int quickaction_item2_btn=0x7f020085;
-        public static final int quickaction_notes=0x7f020086;
-        public static final int quickaction_pictures=0x7f020087;
-        public static final int quickaction_sketch=0x7f020088;
-        public static final int quickaction_slider_background=0x7f020089;
-        public static final int quickaction_slider_left=0x7f02008a;
-        public static final int quickaction_slider_right=0x7f02008b;
-        public static final int quickaction_start_log=0x7f02008c;
-        public static final int quickaction_stop_log=0x7f02008d;
-        public static final int quickcontact_bottom_frame=0x7f02008e;
-        public static final int quickcontact_disambig_bottom_bg=0x7f02008f;
-        public static final int quickcontact_disambig_divider=0x7f020090;
-        public static final int quickcontact_drop_shadow=0x7f020091;
-        public static final int quickcontact_photo_frame=0x7f020092;
-        public static final int quickcontact_slider_background=0x7f020093;
-        public static final int quickcontact_slider_btn=0x7f020094;
-        public static final int quickcontact_slider_btn_normal=0x7f020095;
-        public static final int quickcontact_slider_btn_on=0x7f020096;
-        public static final int quickcontact_slider_btn_pressed=0x7f020097;
-        public static final int quickcontact_slider_btn_selected=0x7f020098;
-        public static final int quickcontact_slider_grip_left=0x7f020099;
-        public static final int quickcontact_slider_grip_right=0x7f02009a;
-        public static final int quickcontact_top_frame=0x7f02009b;
-        public static final int right=0x7f02009c;
-        public static final int scribble=0x7f02009d;
-        public static final int search_button_pressed=0x7f0200b1;
-        public static final int search_button_released=0x7f0200b2;
-        public static final int seek_thumb=0x7f02009e;
-        public static final int seek_thumb_normal=0x7f02009f;
-        public static final int seek_thumb_pressed=0x7f0200a0;
-        public static final int seek_thumb_selected=0x7f0200a1;
-        public static final int separator=0x7f0200a2;
-        public static final int share=0x7f0200a3;
-        public static final int splasher=0x7f0200a4;
-        public static final int sym_action_add=0x7f0200a5;
-        public static final int sym_action_map=0x7f0200a6;
-        public static final int transparent=0x7f0200a7;
-        public static final int transparent_tool=0x7f0200a8;
-        public static final int uncledan=0x7f0200a9;
-        public static final int uncledan_save=0x7f0200aa;
-        public static final int undo=0x7f0200ab;
-        public static final int warning=0x7f0200ac;
-        public static final int warning_button_drawable=0x7f0200ad;
+        public static final int action_bar_menu=0x7f020005;
+        public static final int action_bar_note=0x7f020006;
+        public static final int action_button_bg=0x7f020007;
+        public static final int action_item_selected=0x7f020008;
+        public static final int actionbar_button_bg=0x7f020096;
+        public static final int actionbar_button_pressed_bg=0x7f020097;
+        public static final int actionbar_button_selected_bg=0x7f020098;
+        public static final int addbookmark=0x7f020009;
+        public static final int addnote=0x7f02000a;
+        public static final int airbrush_dark=0x7f02000b;
+        public static final int airbrush_light=0x7f02000c;
+        public static final int battery=0x7f02000d;
+        public static final int bookmark=0x7f02000e;
+        public static final int bookmarkslist=0x7f02000f;
+        public static final int border_1px=0x7f020010;
+        public static final int border_black_1px=0x7f020011;
+        public static final int bubble=0x7f020012;
+        public static final int button_background_drawable=0x7f020013;
+        public static final int buttoncircle=0x7f020014;
+        public static final int buttoncirclezoomin=0x7f020015;
+        public static final int buttoncirclezoomout=0x7f020016;
+        public static final int check=0x7f020017;
+        public static final int checks_light=0x7f020018;
+        public static final int checks_small_dark=0x7f020019;
+        public static final int circle=0x7f02001a;
+        public static final int circle_1bpp=0x7f02001b;
+        public static final int current_position=0x7f02001c;
+        public static final int dashboard_export_item=0x7f02001d;
+        public static final int dashboard_import_item=0x7f02001e;
+        public static final int dashboard_log_item=0x7f02001f;
+        public static final int dashboard_map_item=0x7f020020;
+        public static final int dashboard_note_item=0x7f020021;
+        public static final int dashboard_undonote_item=0x7f020022;
+        public static final int deletebookmark=0x7f020023;
+        public static final int deletenote=0x7f020024;
+        public static final int dialog_background=0x7f020025;
+        public static final int divider=0x7f020026;
+        public static final int doodlebug=0x7f020027;
+        public static final int export_bookmarks=0x7f020028;
+        public static final int export_cloud=0x7f020029;
+        public static final int export_gpx=0x7f02002a;
+        public static final int export_kmz=0x7f02002b;
+        public static final int folder_closed=0x7f02002c;
+        public static final int folder_open=0x7f02002d;
+        public static final int form_text_color=0x7f02002e;
+        public static final int fountainpen=0x7f02002f;
+        public static final int gallery=0x7f020030;
+        public static final int goto_position=0x7f020031;
+        public static final int gps_background_hasfix_notlogging=0x7f020032;
+        public static final int gps_background_logging=0x7f020033;
+        public static final int gps_background_notlogging=0x7f020034;
+        public static final int gps_background_off=0x7f020035;
+        public static final int gradient_background=0x7f020036;
+        public static final int ic_launcher=0x7f020037;
+        public static final int ic_launcher_bluegps=0x7f020038;
+        public static final int ic_menu_compass=0x7f020039;
+        public static final int ic_menu_minimap=0x7f02003a;
+        public static final int ic_menu_removestar=0x7f02003b;
+        public static final int ic_menu_scalebar=0x7f02003c;
+        public static final int ic_menu_select=0x7f02003d;
+        public static final int ic_menu_tilesource=0x7f02003e;
+        public static final int ic_menu_unselect=0x7f02003f;
+        public static final int ic_stat_notify=0x7f020040;
+        public static final int ic_tab_alertsign_selected=0x7f020041;
+        public static final int ic_tab_goto_selected=0x7f020042;
+        public static final int ic_tab_rename_selected=0x7f020043;
+        public static final int icon=0x7f020044;
+        public static final int icon_datasource=0x7f020045;
+        public static final int image=0x7f020046;
+        public static final int infomode=0x7f020047;
+        public static final int infomode_on=0x7f020048;
+        public static final int information=0x7f020049;
+        public static final int large_launcher_icon=0x7f02004a;
+        public static final int launcher_icon=0x7f02004b;
+        public static final int left=0x7f02004c;
+        public static final int list_down=0x7f02004d;
+        public static final int list_up=0x7f02004e;
+        public static final int list_zoomto=0x7f02004f;
+        public static final int load=0x7f020050;
+        public static final int mapsdir_treeview_bkgnd_normal=0x7f020051;
+        public static final int mapsdir_treeview_bkgnd_pressed=0x7f020052;
+        public static final int mapsdir_treeview_bkgnd_transparent=0x7f020053;
+        public static final int mapsdir_treeview_divider=0x7f020054;
+        public static final int mapsdir_treeview_options_button_bkgnd=0x7f020055;
+        public static final int marker_green=0x7f020056;
+        public static final int marker_red=0x7f020057;
+        public static final int markers=0x7f020058;
+        public static final int max=0x7f020059;
+        public static final int measuremode=0x7f02005a;
+        public static final int measuremode_on=0x7f02005b;
+        public static final int menu=0x7f02005c;
+        public static final int min=0x7f02005d;
+        public static final int newpage=0x7f02005e;
+        public static final int noteslist=0x7f02005f;
+        public static final int osm=0x7f020060;
+        public static final int osmcategory_button_drawable=0x7f020061;
+        public static final int overflow=0x7f020062;
+        public static final int package_download=0x7f020063;
+        public static final int panic=0x7f020064;
+        public static final int panic_button_drawable=0x7f020065;
+        public static final int photo=0x7f020066;
+        public static final int progress_vertical=0x7f020067;
+        public static final int properties=0x7f020068;
+        public static final int qr=0x7f020069;
+        public static final int quickaction_arrow_down=0x7f02006a;
+        public static final int quickaction_arrow_up=0x7f02006b;
+        public static final int quickaction_audio=0x7f02006c;
+        public static final int quickaction_item2_btn=0x7f02006d;
+        public static final int quickaction_notes=0x7f02006e;
+        public static final int quickaction_pictures=0x7f02006f;
+        public static final int quickaction_sketch=0x7f020070;
+        public static final int quickaction_slider_background=0x7f020071;
+        public static final int quickaction_slider_left=0x7f020072;
+        public static final int quickaction_slider_right=0x7f020073;
+        public static final int quickaction_start_log=0x7f020074;
+        public static final int quickaction_stop_log=0x7f020075;
+        public static final int quickcontact_bottom_frame=0x7f020076;
+        public static final int quickcontact_disambig_bottom_bg=0x7f020077;
+        public static final int quickcontact_disambig_divider=0x7f020078;
+        public static final int quickcontact_drop_shadow=0x7f020079;
+        public static final int quickcontact_photo_frame=0x7f02007a;
+        public static final int quickcontact_slider_background=0x7f02007b;
+        public static final int quickcontact_slider_btn=0x7f02007c;
+        public static final int quickcontact_slider_btn_normal=0x7f02007d;
+        public static final int quickcontact_slider_btn_on=0x7f02007e;
+        public static final int quickcontact_slider_btn_pressed=0x7f02007f;
+        public static final int quickcontact_slider_btn_selected=0x7f020080;
+        public static final int quickcontact_slider_grip_left=0x7f020081;
+        public static final int quickcontact_slider_grip_right=0x7f020082;
+        public static final int quickcontact_top_frame=0x7f020083;
+        public static final int right=0x7f020084;
+        public static final int scribble=0x7f020085;
+        public static final int search_button_pressed=0x7f020099;
+        public static final int search_button_released=0x7f02009a;
+        public static final int seek_thumb=0x7f020086;
+        public static final int seek_thumb_normal=0x7f020087;
+        public static final int seek_thumb_pressed=0x7f020088;
+        public static final int seek_thumb_selected=0x7f020089;
+        public static final int separator=0x7f02008a;
+        public static final int share=0x7f02008b;
+        public static final int splasher=0x7f02008c;
+        public static final int sym_action_add=0x7f02008d;
+        public static final int sym_action_map=0x7f02008e;
+        public static final int transparent=0x7f02008f;
+        public static final int transparent_tool=0x7f020090;
+        public static final int uncledan=0x7f020091;
+        public static final int uncledan_save=0x7f020092;
+        public static final int undo=0x7f020093;
+        public static final int warning=0x7f020094;
+        public static final int warning_button_drawable=0x7f020095;
     }
     public static final class id {
         public static final int about=0x7f0c0100;
@@ -778,8 +754,8 @@ containing a value of this type.
         public static final int fragment_list_item=0x7f03001a;
         public static final int geocode=0x7f03001b;
         public static final int geocode_row=0x7f03001c;
-        public static final int geopap_button=0x7f03001d;
-        public static final int geopap_main=0x7f03001e;
+        public static final int geodroid_main=0x7f03001d;
+        public static final int geopap_button=0x7f03001e;
         public static final int gpslog_properties=0x7f03001f;
         public static final int gpslog_row=0x7f030020;
         public static final int gpslogslist=0x7f030021;
@@ -1325,9 +1301,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PenToolButton_interpolator eu.hydrologis.geopaparazzi:interpolator}</code></td><td></td></tr>
-           <tr><td><code>{@link #PenToolButton_strokeWidthMax eu.hydrologis.geopaparazzi:strokeWidthMax}</code></td><td></td></tr>
-           <tr><td><code>{@link #PenToolButton_strokeWidthMin eu.hydrologis.geopaparazzi:strokeWidthMin}</code></td><td></td></tr>
+           <tr><td><code>{@link #PenToolButton_interpolator eu.hydrologis.geodroid:interpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #PenToolButton_strokeWidthMax eu.hydrologis.geodroid:strokeWidthMax}</code></td><td></td></tr>
+           <tr><td><code>{@link #PenToolButton_strokeWidthMin eu.hydrologis.geodroid:strokeWidthMin}</code></td><td></td></tr>
            </table>
            @see #PenToolButton_interpolator
            @see #PenToolButton_strokeWidthMax
@@ -1337,17 +1313,17 @@ containing a value of this type.
             0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#interpolator}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#interpolator}
           attribute's value can be found in the {@link #PenToolButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name eu.hydrologis.geopaparazzi:interpolator
+          @attr name eu.hydrologis.geodroid:interpolator
         */
         public static final int PenToolButton_interpolator = 2;
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#strokeWidthMax}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#strokeWidthMax}
           attribute's value can be found in the {@link #PenToolButton} array.
 
 
@@ -1359,11 +1335,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name eu.hydrologis.geopaparazzi:strokeWidthMax
+          @attr name eu.hydrologis.geodroid:strokeWidthMax
         */
         public static final int PenToolButton_strokeWidthMax = 0;
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#strokeWidthMin}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#strokeWidthMin}
           attribute's value can be found in the {@link #PenToolButton} array.
 
 
@@ -1375,7 +1351,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name eu.hydrologis.geopaparazzi:strokeWidthMin
+          @attr name eu.hydrologis.geodroid:strokeWidthMin
         */
         public static final int PenToolButton_strokeWidthMin = 1;
         /** Attributes that can be used with a PenTypeButton.
@@ -1384,7 +1360,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PenTypeButton_penType eu.hydrologis.geopaparazzi:penType}</code></td><td></td></tr>
+           <tr><td><code>{@link #PenTypeButton_penType eu.hydrologis.geodroid:penType}</code></td><td></td></tr>
            </table>
            @see #PenTypeButton_penType
          */
@@ -1392,7 +1368,7 @@ containing a value of this type.
             0x7f010004
         };
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#penType}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#penType}
           attribute's value can be found in the {@link #PenTypeButton} array.
 
 
@@ -1407,7 +1383,7 @@ containing a value of this type.
 <tr><td><code>airbrush</code></td><td>2</td><td></td></tr>
 <tr><td><code>fountainpen</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name eu.hydrologis.geopaparazzi:penType
+          @attr name eu.hydrologis.geodroid:penType
         */
         public static final int PenTypeButton_penType = 0;
         /** Attributes that can be used with a ProgressBar.
@@ -1519,7 +1495,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SwatchButton_color eu.hydrologis.geopaparazzi:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwatchButton_color eu.hydrologis.geodroid:color}</code></td><td></td></tr>
            </table>
            @see #SwatchButton_color
          */
@@ -1527,7 +1503,7 @@ containing a value of this type.
             0x7f010003
         };
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#color}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#color}
           attribute's value can be found in the {@link #SwatchButton} array.
 
 
@@ -1538,7 +1514,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name eu.hydrologis.geopaparazzi:color
+          @attr name eu.hydrologis.geodroid:color
         */
         public static final int SwatchButton_color = 0;
         /** Attributes that can be used with a Theme.
@@ -1566,14 +1542,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TreeViewList_collapsible eu.hydrologis.geopaparazzi:collapsible}</code></td><td></td></tr>
-           <tr><td><code>{@link #TreeViewList_handle_trackball_press eu.hydrologis.geopaparazzi:handle_trackball_press}</code></td><td></td></tr>
-           <tr><td><code>{@link #TreeViewList_indent_width eu.hydrologis.geopaparazzi:indent_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #TreeViewList_indicator_background eu.hydrologis.geopaparazzi:indicator_background}</code></td><td></td></tr>
-           <tr><td><code>{@link #TreeViewList_indicator_gravity eu.hydrologis.geopaparazzi:indicator_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TreeViewList_row_background eu.hydrologis.geopaparazzi:row_background}</code></td><td></td></tr>
-           <tr><td><code>{@link #TreeViewList_src_collapsed eu.hydrologis.geopaparazzi:src_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #TreeViewList_src_expanded eu.hydrologis.geopaparazzi:src_expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #TreeViewList_collapsible eu.hydrologis.geodroid:collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #TreeViewList_handle_trackball_press eu.hydrologis.geodroid:handle_trackball_press}</code></td><td></td></tr>
+           <tr><td><code>{@link #TreeViewList_indent_width eu.hydrologis.geodroid:indent_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #TreeViewList_indicator_background eu.hydrologis.geodroid:indicator_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #TreeViewList_indicator_gravity eu.hydrologis.geodroid:indicator_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TreeViewList_row_background eu.hydrologis.geodroid:row_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #TreeViewList_src_collapsed eu.hydrologis.geodroid:src_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #TreeViewList_src_expanded eu.hydrologis.geodroid:src_expanded}</code></td><td></td></tr>
            </table>
            @see #TreeViewList_collapsible
            @see #TreeViewList_handle_trackball_press
@@ -1589,7 +1565,7 @@ containing a value of this type.
             0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c
         };
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#collapsible}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#collapsible}
           attribute's value can be found in the {@link #TreeViewList} array.
 
 
@@ -1599,11 +1575,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name eu.hydrologis.geopaparazzi:collapsible
+          @attr name eu.hydrologis.geodroid:collapsible
         */
         public static final int TreeViewList_collapsible = 0;
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#handle_trackball_press}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#handle_trackball_press}
           attribute's value can be found in the {@link #TreeViewList} array.
 
 
@@ -1613,11 +1589,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name eu.hydrologis.geopaparazzi:handle_trackball_press
+          @attr name eu.hydrologis.geodroid:handle_trackball_press
         */
         public static final int TreeViewList_handle_trackball_press = 4;
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#indent_width}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#indent_width}
           attribute's value can be found in the {@link #TreeViewList} array.
 
 
@@ -1629,11 +1605,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name eu.hydrologis.geopaparazzi:indent_width
+          @attr name eu.hydrologis.geodroid:indent_width
         */
         public static final int TreeViewList_indent_width = 3;
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#indicator_background}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#indicator_background}
           attribute's value can be found in the {@link #TreeViewList} array.
 
 
@@ -1641,11 +1617,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.hydrologis.geopaparazzi:indicator_background
+          @attr name eu.hydrologis.geodroid:indicator_background
         */
         public static final int TreeViewList_indicator_background = 6;
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#indicator_gravity}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#indicator_gravity}
           attribute's value can be found in the {@link #TreeViewList} array.
 
 
@@ -1672,11 +1648,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     The clip will be based on the horizontal gravity: a left gravity will clip the right edge, a right gravity will clip the
     left edge, and neither will clip both edges. </td></tr>
 </table>
-          @attr name eu.hydrologis.geopaparazzi:indicator_gravity
+          @attr name eu.hydrologis.geodroid:indicator_gravity
         */
         public static final int TreeViewList_indicator_gravity = 5;
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#row_background}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#row_background}
           attribute's value can be found in the {@link #TreeViewList} array.
 
 
@@ -1684,11 +1660,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.hydrologis.geopaparazzi:row_background
+          @attr name eu.hydrologis.geodroid:row_background
         */
         public static final int TreeViewList_row_background = 7;
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#src_collapsed}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#src_collapsed}
           attribute's value can be found in the {@link #TreeViewList} array.
 
 
@@ -1696,11 +1672,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.hydrologis.geopaparazzi:src_collapsed
+          @attr name eu.hydrologis.geodroid:src_collapsed
         */
         public static final int TreeViewList_src_collapsed = 2;
         /**
-          <p>This symbol is the offset where the {@link eu.hydrologis.geopaparazzi.R.attr#src_expanded}
+          <p>This symbol is the offset where the {@link eu.hydrologis.geodroid.R.attr#src_expanded}
           attribute's value can be found in the {@link #TreeViewList} array.
 
 
@@ -1708,7 +1684,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.hydrologis.geopaparazzi:src_expanded
+          @attr name eu.hydrologis.geodroid:src_expanded
         */
         public static final int TreeViewList_src_expanded = 1;
     };

@@ -1,4 +1,4 @@
-package eu.hydrologis.geopaparazzi;
+package eu.hydrologis.geodroid;
 
 import org.acra.ACRA;
 import org.acra.ReportField;

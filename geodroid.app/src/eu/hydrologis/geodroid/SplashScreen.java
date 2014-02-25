@@ -1,10 +1,14 @@
-package eu.hydrologis.geopaparazzi;
+package eu.hydrologis.geodroid;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+/**
+ * @author root
+ *
+ */
 public class SplashScreen extends Activity {
     // Splash screen timer
 

@@ -1,20 +1,3 @@
-/*
- * Geopaparazzi - Digital field mapping on Android based devices
- * Copyright (C) 2010  HydroloGIS (www.hydrologis.com)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
 package eu.hydrologis.geopaparazzi.dashboard;
 
 import java.io.File;
@@ -46,14 +29,13 @@ import eu.geopaparazzi.library.gps.GpsManagerListener;
 import eu.geopaparazzi.library.gps.GpsStatusInfo;
 import eu.geopaparazzi.library.sensors.SensorsManager;
 import eu.geopaparazzi.library.util.ResourcesManager;
-import eu.hydrologis.geopaparazzi.R;
+import eu.hydrologis.geodroid.R;
 import eu.hydrologis.geopaparazzi.dashboard.quickaction.actionbar.ActionItem;
 import eu.hydrologis.geopaparazzi.dashboard.quickaction.actionbar.QuickAction;
 
 /**
- * The action bar utilities class.
- * 
- * @author Andrea Antonello (www.hydrologis.com)
+ * @author root
+ *
  */
 @SuppressWarnings("nls")
 public class ActionBar implements GpsManagerListener {
