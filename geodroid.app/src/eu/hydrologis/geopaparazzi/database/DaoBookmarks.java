@@ -1,20 +1,3 @@
-/*
- * Geopaparazzi - Digital field mapping on Android based devices
- * Copyright (C) 2010  HydroloGIS (www.hydrologis.com)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
 package eu.hydrologis.geopaparazzi.database;
 
 import java.io.IOException;
@@ -34,7 +17,7 @@ import eu.geopaparazzi.library.database.GPLog;
 import eu.hydrologis.geopaparazzi.util.Bookmark;
 
 /**
- * @author Andrea Antonello (www.hydrologis.com)
+ * @author root
  */
 @SuppressWarnings("nls")
 public class DaoBookmarks {
@@ -50,7 +33,7 @@ public class DaoBookmarks {
     private static final String COLUMN_EASTBOUND = "beast";
 
     /**
-     * Bookmarks table name.
+     * Bookmarks table name. Used for locations offline Search and GoTo
      */
     public static final String TABLE_BOOKMARKS = "bookmarks";
 
@@ -273,10 +256,10 @@ public class DaoBookmarks {
         sB.append(COLUMN_LON).append(" REAL NOT NULL, ");
         sB.append(COLUMN_LAT).append(" REAL NOT NULL,");
         sB.append(COLUMN_ZOOM).append(" REAL NOT NULL,");
-        sB.append(COLUMN_NORTHBOUND).append(" REAL NOT NULL,");
-        sB.append(COLUMN_SOUTHBOUND).append(" REAL NOT NULL,");
-        sB.append(COLUMN_WESTBOUND).append(" REAL NOT NULL,");
-        sB.append(COLUMN_EASTBOUND).append(" REAL NOT NULL,");
+        sB.append(COLUMN_NORTHBOUND).append(" REAL,");
+        sB.append(COLUMN_SOUTHBOUND).append(" REAL,");
+        sB.append(COLUMN_WESTBOUND).append(" REAL,");
+        sB.append(COLUMN_EASTBOUND).append(" REAL,");
         sB.append(COLUMN_TEXT).append(" TEXT NOT NULL ");
         sB.append(");");
         String CREATE_TABLE_BOOKMARKS = sB.toString();
