@@ -68,36 +68,36 @@ public final class R {
 		public static final int undo = 0x7f020093;
 	}
 	public static final class id {
-		public static final int about = 0x7f0c0100;
+		public static final int about = 0x7f0c00fa;
 		public static final int actionbar = 0x7f0c001e;
 		public static final int actionbar_contents = 0x7f0c001f;
 		public static final int airbrush = 0x7f0c0002;
-		public static final int airbrush_marker = 0x7f0c0121;
+		public static final int airbrush_marker = 0x7f0c011b;
 		public static final int clear = 0x7f0c0024;
 		public static final int colors = 0x7f0c003e;
 		public static final int debug = 0x7f0c0021;
-		public static final int fat_marker = 0x7f0c011e;
+		public static final int fat_marker = 0x7f0c0118;
 		public static final int feltTip = 0x7f0c0001;
-		public static final int felttip_marker = 0x7f0c0120;
+		public static final int felttip_marker = 0x7f0c011a;
 		public static final int fountainpen = 0x7f0c0003;
-		public static final int fountainpen_marker = 0x7f0c0122;
+		public static final int fountainpen_marker = 0x7f0c011c;
 		public static final int html = 0x7f0c0013;
-		public static final int hud = 0x7f0c00ba;
+		public static final int hud = 0x7f0c00b4;
 		public static final int load = 0x7f0c0023;
 		public static final int logo = 0x7f0c0011;
 		public static final int logotype = 0x7f0c0020;
 		public static final int overflow = 0x7f0c0027;
-		public static final int pen_medium = 0x7f0c011c;
-		public static final int pen_thick = 0x7f0c011d;
-		public static final int pen_thin = 0x7f0c011b;
-		public static final int root = 0x7f0c00b8;
+		public static final int pen_medium = 0x7f0c0116;
+		public static final int pen_thick = 0x7f0c0117;
+		public static final int pen_thin = 0x7f0c0115;
+		public static final int root = 0x7f0c00b2;
 		public static final int save = 0x7f0c0025;
 		public static final int share = 0x7f0c0026;
 		public static final int title = 0x7f0c0012;
-		public static final int tools = 0x7f0c00b9;
+		public static final int tools = 0x7f0c00b3;
 		public static final int undo = 0x7f0c0022;
 		public static final int whiteboard = 0x7f0c0000;
-		public static final int whiteboard_marker = 0x7f0c011f;
+		public static final int whiteboard_marker = 0x7f0c0119;
 	}
 	public static final class layout {
 		public static final int about_box = 0x7f030001;

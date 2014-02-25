@@ -64,7 +64,6 @@ import eu.hydrologis.geopaparazzi.database.DatabaseManager;
 import eu.hydrologis.geopaparazzi.database.NoteType;
 import eu.hydrologis.geopaparazzi.maps.DataManager;
 import eu.hydrologis.geopaparazzi.maps.LogMapItem;
-import eu.hydrologis.geopaparazzi.maps.MapTagsActivity;
 import eu.hydrologis.geopaparazzi.maps.MapsActivity;
 import eu.hydrologis.geopaparazzi.osm.OsmUtilities;
 import eu.hydrologis.geopaparazzi.preferences.PreferencesActivity;
@@ -331,21 +330,21 @@ public class GeoDroidActivity extends Activity {
         /*
          * the buttons
          */
-        final int notesButtonId = R.id.dashboard_note_item_button;
-        ImageButton notesButton = (ImageButton) findViewById(notesButtonId);
-        notesButton.setOnClickListener(new Button.OnClickListener(){
-            public void onClick( View v ) {
-                push(notesButtonId, v);
-            }
-        });
-
-        final int undoNotesButtonId = R.id.dashboard_undonote_item_button;
-        ImageButton undoNotesButton = (ImageButton) findViewById(undoNotesButtonId);
-        undoNotesButton.setOnClickListener(new Button.OnClickListener(){
-            public void onClick( View v ) {
-                push(undoNotesButtonId, v);
-            }
-        });
+        // final int notesButtonId = R.id.dashboard_note_item_button;
+        // ImageButton notesButton = (ImageButton) findViewById(notesButtonId);
+        // notesButton.setOnClickListener(new Button.OnClickListener(){
+        // public void onClick( View v ) {
+        // push(notesButtonId, v);
+        // }
+        // });
+        //
+        // final int undoNotesButtonId = R.id.dashboard_undonote_item_button;
+        // ImageButton undoNotesButton = (ImageButton) findViewById(undoNotesButtonId);
+        // undoNotesButton.setOnClickListener(new Button.OnClickListener(){
+        // public void onClick( View v ) {
+        // push(undoNotesButtonId, v);
+        // }
+        // });
 
         final int logButtonId = R.id.dashboard_log_item_button;
         ImageButton logButton = (ImageButton) findViewById(logButtonId);
@@ -499,50 +498,52 @@ public class GeoDroidActivity extends Activity {
      */
     public void push( int id, View v ) {
         switch( id ) {
-        case R.id.dashboard_note_item_button: {
-            boolean isValid = false;
-            if (GpsManager.getInstance(this).hasFix()) {
-                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-                double[] gpsLocation = PositionUtilities.getGpsLocationFromPreferences(preferences);
-                if (gpsLocation != null) {
-                    try {
-                        // File mediaDir = ResourcesManager.getInstance(this).getMediaDir();
-                        // final File tmpImageFile = new File(mediaDir.getParentFile(),
-                        // LibraryConstants.TMPPNGIMAGENAME);
-                        Intent mapTagsIntent = new Intent(this, MapTagsActivity.class);
-                        // mapTagsIntent.putExtra(LibraryConstants.LATITUDE, gpsLocation[1]);
-                        // mapTagsIntent.putExtra(LibraryConstants.LONGITUDE, gpsLocation[0]);
-                        // mapTagsIntent.putExtra(LibraryConstants.ELEVATION, gpsLocation[2]);
-                        // mapTagsIntent.putExtra(LibraryConstants.TMPPNGIMAGENAME,
-                        // tmpImageFile.getAbsolutePath());
-                        startActivity(mapTagsIntent);
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    isValid = true;
-                }
-            }
-            if (!isValid)
-                Utilities.messageDialog(this, R.string.gpslogging_only, null);
-
-            break;
-        }
-        case R.id.dashboard_undonote_item_button: {
-            Utilities.yesNoMessageDialog(this, getString(R.string.remove_last_note_prompt), new Runnable(){
-                public void run() {
-                    try {
-                        DaoNotes.deleteLastInsertedNote();
-                        Utilities.toast(GeoDroidActivity.this, R.string.last_note_deleted, Toast.LENGTH_LONG);
-                    } catch (IOException e) {
-                        GPLog.error(this, e.getLocalizedMessage(), e);
-                        e.printStackTrace();
-                        Utilities.toast(GeoDroidActivity.this, R.string.last_note_not_deleted, Toast.LENGTH_LONG);
-                    }
-                }
-            }, null);
-
-            break;
-        }
+        // case R.id.dashboard_note_item_button: {
+        // boolean isValid = false;
+        // if (GpsManager.getInstance(this).hasFix()) {
+        // SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        // double[] gpsLocation = PositionUtilities.getGpsLocationFromPreferences(preferences);
+        // if (gpsLocation != null) {
+        // try {
+        // // File mediaDir = ResourcesManager.getInstance(this).getMediaDir();
+        // // final File tmpImageFile = new File(mediaDir.getParentFile(),
+        // // LibraryConstants.TMPPNGIMAGENAME);
+        // Intent mapTagsIntent = new Intent(this, MapTagsActivity.class);
+        // // mapTagsIntent.putExtra(LibraryConstants.LATITUDE, gpsLocation[1]);
+        // // mapTagsIntent.putExtra(LibraryConstants.LONGITUDE, gpsLocation[0]);
+        // // mapTagsIntent.putExtra(LibraryConstants.ELEVATION, gpsLocation[2]);
+        // // mapTagsIntent.putExtra(LibraryConstants.TMPPNGIMAGENAME,
+        // // tmpImageFile.getAbsolutePath());
+        // startActivity(mapTagsIntent);
+        // } catch (Exception e) {
+        // e.printStackTrace();
+        // }
+        // isValid = true;
+        // }
+        // }
+        // if (!isValid)
+        // Utilities.messageDialog(this, R.string.gpslogging_only, null);
+        //
+        // break;
+        // }
+        // case R.id.dashboard_undonote_item_button: {
+        // Utilities.yesNoMessageDialog(this, getString(R.string.remove_last_note_prompt), new
+        // Runnable(){
+        // public void run() {
+        // try {
+        // DaoNotes.deleteLastInsertedNote();
+        // Utilities.toast(GeoDroidActivity.this, R.string.last_note_deleted, Toast.LENGTH_LONG);
+        // } catch (IOException e) {
+        // GPLog.error(this, e.getLocalizedMessage(), e);
+        // e.printStackTrace();
+        // Utilities.toast(GeoDroidActivity.this, R.string.last_note_not_deleted,
+        // Toast.LENGTH_LONG);
+        // }
+        // }
+        // }, null);
+        //
+        // break;
+        // }
         case R.id.dashboard_log_item_button: {
             QuickAction qa = new QuickAction(v);
             if (gpsManager.isDatabaseLogging()) {
