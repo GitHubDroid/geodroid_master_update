@@ -54,8 +54,6 @@ import eu.geopaparazzi.library.util.debug.TestMock;
 import eu.geopaparazzi.mapsforge.mapsdirmanager.MapsDirManager;
 import eu.geopaparazzi.mapsforge.mapsdirmanager.treeview.MapsDirTreeViewList;
 import eu.hydrologis.geopaparazzi.dashboard.ActionBar;
-import eu.hydrologis.geopaparazzi.dashboard.quickaction.dashboard.ActionItem;
-import eu.hydrologis.geopaparazzi.dashboard.quickaction.dashboard.QuickAction;
 import eu.hydrologis.geopaparazzi.database.DaoBookmarks;
 import eu.hydrologis.geopaparazzi.database.DaoGpsLog;
 import eu.hydrologis.geopaparazzi.database.DaoImages;
@@ -68,10 +66,7 @@ import eu.hydrologis.geopaparazzi.maps.MapsActivity;
 import eu.hydrologis.geopaparazzi.osm.OsmUtilities;
 import eu.hydrologis.geopaparazzi.preferences.PreferencesActivity;
 import eu.hydrologis.geopaparazzi.util.Constants;
-import eu.hydrologis.geopaparazzi.util.ExportActivity;
 import eu.hydrologis.geopaparazzi.util.GpUtilities;
-import eu.hydrologis.geopaparazzi.util.ImportActivity;
-import eu.hydrologis.geopaparazzi.util.QuickActionsFactory;
 import eu.hydrologis.geopaparazzi.util.SecretActivity;
 
 /**
@@ -346,14 +341,14 @@ public class GeoDroidActivity extends Activity {
         // }
         // });
 
-        final int logButtonId = R.id.dashboard_log_item_button;
-        ImageButton logButton = (ImageButton) findViewById(logButtonId);
-        // isChecked = applicationManager.isGpsLogging();
-        logButton.setOnClickListener(new Button.OnClickListener(){
-            public void onClick( View v ) {
-                push(logButtonId, v);
-            }
-        });
+        // final int logButtonId = R.id.dashboard_log_item_button;
+        // ImageButton logButton = (ImageButton) findViewById(logButtonId);
+        // // isChecked = applicationManager.isGpsLogging();
+        // logButton.setOnClickListener(new Button.OnClickListener(){
+        // public void onClick( View v ) {
+        // push(logButtonId, v);
+        // }
+        // });
 
         final int mapButtonId = R.id.dashboard_map_item_button;
         ImageButton mapButton = (ImageButton) findViewById(mapButtonId);
@@ -363,21 +358,21 @@ public class GeoDroidActivity extends Activity {
             }
         });
 
-        final int importButtonId = R.id.dashboard_import_item_button;
-        ImageButton importButton = (ImageButton) findViewById(importButtonId);
-        importButton.setOnClickListener(new Button.OnClickListener(){
-            public void onClick( View v ) {
-                push(importButtonId, v);
-            }
-        });
+        // final int importButtonId = R.id.dashboard_import_item_button;
+        // ImageButton importButton = (ImageButton) findViewById(importButtonId);
+        // importButton.setOnClickListener(new Button.OnClickListener(){
+        // public void onClick( View v ) {
+        // push(importButtonId, v);
+        // }
+        // });
 
-        final int exportButtonId = R.id.dashboard_export_item_button;
-        ImageButton exportButton = (ImageButton) findViewById(exportButtonId);
-        exportButton.setOnClickListener(new Button.OnClickListener(){
-            public void onClick( View v ) {
-                push(exportButtonId, v);
-            }
-        });
+        // final int exportButtonId = R.id.dashboard_export_item_button;
+        // ImageButton exportButton = (ImageButton) findViewById(exportButtonId);
+        // exportButton.setOnClickListener(new Button.OnClickListener(){
+        // public void onClick( View v ) {
+        // push(exportButtonId, v);
+        // }
+        // });
 
         // slidingdrawer
         final int slidingId = R.id.slide;
@@ -544,34 +539,36 @@ public class GeoDroidActivity extends Activity {
         //
         // break;
         // }
-        case R.id.dashboard_log_item_button: {
-            QuickAction qa = new QuickAction(v);
-            if (gpsManager.isDatabaseLogging()) {
-                ActionItem stopLogQuickAction = QuickActionsFactory.getStopLogQuickAction(actionBar, qa, this);
-                qa.addActionItem(stopLogQuickAction);
-            } else {
-                ActionItem startLogQuickAction = QuickActionsFactory.getStartLogQuickAction(actionBar, qa, this);
-                qa.addActionItem(startLogQuickAction);
-            }
-            qa.setAnimStyle(QuickAction.ANIM_AUTO);
-            qa.show();
-            break;
-        }
+        // case R.id.dashboard_log_item_button: {
+        // QuickAction qa = new QuickAction(v);
+        // if (gpsManager.isDatabaseLogging()) {
+        // ActionItem stopLogQuickAction = QuickActionsFactory.getStopLogQuickAction(actionBar, qa,
+        // this);
+        // qa.addActionItem(stopLogQuickAction);
+        // } else {
+        // ActionItem startLogQuickAction = QuickActionsFactory.getStartLogQuickAction(actionBar,
+        // qa, this);
+        // qa.addActionItem(startLogQuickAction);
+        // }
+        // qa.setAnimStyle(QuickAction.ANIM_AUTO);
+        // qa.show();
+        // break;
+        // }
         case R.id.dashboard_map_item_button: {
             Intent mapIntent = new Intent(this, MapsActivity.class);
             startActivity(mapIntent);
             break;
         }
-        case R.id.dashboard_import_item_button: {
-            Intent exportIntent = new Intent(this, ImportActivity.class);
-            startActivity(exportIntent);
-            break;
-        }
-        case R.id.dashboard_export_item_button: {
-            Intent exportIntent = new Intent(this, ExportActivity.class);
-            startActivity(exportIntent);
-            break;
-        }
+        // case R.id.dashboard_import_item_button: {
+        // Intent exportIntent = new Intent(this, ImportActivity.class);
+        // startActivity(exportIntent);
+        // break;
+        // }
+        // case R.id.dashboard_export_item_button: {
+        // Intent exportIntent = new Intent(this, ExportActivity.class);
+        // startActivity(exportIntent);
+        // break;
+        // }
         case R.id.panicbutton: {
             sendPosition(true);
             break;

@@ -18,13 +18,13 @@
             android:layout_height="@dimen/action_bar_height"
             layout="@layout/action_bar" />
 
-<!--         <LinearLayout -->
-<!--             android:layout_width="fill_parent" -->
-<!--             android:layout_height="fill_parent" -->
-<!--             android:layout_weight="1" -->
-<!--             android:background="@color/main_background" -->
-<!--             android:baselineAligned="false" -->
-<!--             android:orientation="horizontal" > -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/main_background"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
 
 <!--             <LinearLayout -->
 <!--                 android:id="@+id/dashboard_note_item" -->
@@ -73,7 +73,7 @@
 <!--                     android:text="@string/text_undo_a_gps_note" > -->
 <!--                 </TextView> -->
 <!--             </LinearLayout> -->
-<!--         </LinearLayout> -->
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -83,29 +83,29 @@
             android:baselineAligned="false"
             android:orientation="horizontal" >
 
-            <LinearLayout
-                android:id="@+id/dashboard_log_item"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:orientation="vertical" >
+<!--             <LinearLayout -->
+<!--                 android:id="@+id/dashboard_log_item" -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="fill_parent" -->
+<!--                 android:layout_weight="1" -->
+<!--                 android:gravity="center_horizontal" -->
+<!--                 android:orientation="vertical" > -->
 
-                <ImageButton
-                    android:id="@+id/dashboard_log_item_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/action_bar_button_drawable"
-                    android:padding="@dimen/dashboard_button_padding"
-                    android:src="@drawable/dashboard_log_item" >
-                </ImageButton>
+<!--                 <ImageButton -->
+<!--                     android:id="@+id/dashboard_log_item_button" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:background="@drawable/action_bar_button_drawable" -->
+<!--                     android:padding="@dimen/dashboard_button_padding" -->
+<!--                     android:src="@drawable/dashboard_log_item" > -->
+<!--                 </ImageButton> -->
 
-                <TextView
-                    android:id="@+id/dashboard_log_item_text"
-                    style="@style/dashBoardText"
-                    android:text="@string/text_logging" >
-                </TextView>
-            </LinearLayout>
+<!--                 <TextView -->
+<!--                     android:id="@+id/dashboard_log_item_text" -->
+<!--                     style="@style/dashBoardText" -->
+<!--                     android:text="@string/text_logging" > -->
+<!--                 </TextView> -->
+<!--             </LinearLayout> -->
 
             <LinearLayout
                 android:id="@+id/dashboard_map_item"
@@ -140,53 +140,53 @@
             android:baselineAligned="false"
             android:orientation="horizontal" >
 
-            <LinearLayout
-                android:id="@+id/dashboard_import_item"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:orientation="vertical" >
+<!--             <LinearLayout -->
+<!--                 android:id="@+id/dashboard_import_item" -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="fill_parent" -->
+<!--                 android:layout_weight="1" -->
+<!--                 android:gravity="center_horizontal" -->
+<!--                 android:orientation="vertical" > -->
 
-                <ImageButton
-                    android:id="@+id/dashboard_import_item_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/action_bar_button_drawable"
-                    android:padding="@dimen/dashboard_button_padding"
-                    android:src="@drawable/dashboard_import_item" >
-                </ImageButton>
+<!--                 <ImageButton -->
+<!--                     android:id="@+id/dashboard_import_item_button" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:background="@drawable/action_bar_button_drawable" -->
+<!--                     android:padding="@dimen/dashboard_button_padding" -->
+<!--                     android:src="@drawable/dashboard_import_item" > -->
+<!--                 </ImageButton> -->
 
-                <TextView
-                    android:id="@+id/dashboard_import_item_text"
-                    style="@style/dashBoardText"
-                    android:text="@string/mainmenu_import" >
-                </TextView>
-            </LinearLayout>
+<!--                 <TextView -->
+<!--                     android:id="@+id/dashboard_import_item_text" -->
+<!--                     style="@style/dashBoardText" -->
+<!--                     android:text="@string/mainmenu_import" > -->
+<!--                 </TextView> -->
+<!--             </LinearLayout> -->
 
-            <LinearLayout
-                android:id="@+id/dashboard_export_item"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:orientation="vertical" >
+<!--             <LinearLayout -->
+<!--                 android:id="@+id/dashboard_export_item" -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="fill_parent" -->
+<!--                 android:layout_weight="1" -->
+<!--                 android:gravity="center_horizontal" -->
+<!--                 android:orientation="vertical" > -->
 
-                <ImageButton
-                    android:id="@+id/dashboard_export_item_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/action_bar_button_drawable"
-                    android:padding="@dimen/dashboard_button_padding"
-                    android:src="@drawable/dashboard_export_item" >
-                </ImageButton>
+<!--                 <ImageButton -->
+<!--                     android:id="@+id/dashboard_export_item_button" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:background="@drawable/action_bar_button_drawable" -->
+<!--                     android:padding="@dimen/dashboard_button_padding" -->
+<!--                     android:src="@drawable/dashboard_export_item" > -->
+<!--                 </ImageButton> -->
 
-                <TextView
-                    android:id="@+id/dashboard_export_item_text"
-                    style="@style/dashBoardText"
-                    android:text="@string/mainmenu_kmlexport" >
-                </TextView>
-            </LinearLayout>
+<!--                 <TextView -->
+<!--                     android:id="@+id/dashboard_export_item_text" -->
+<!--                     style="@style/dashBoardText" -->
+<!--                     android:text="@string/mainmenu_kmlexport" > -->
+<!--                 </TextView> -->
+<!--             </LinearLayout> -->
         </LinearLayout>
     </LinearLayout>
 
