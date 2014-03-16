@@ -74,27 +74,27 @@ public final class R {
 		public static final int text_small = 0x7f0b000f;
 	}
 	public static final class drawable {
-		public static final int border_1px = 0x7f020010;
-		public static final int border_black_1px = 0x7f020011;
-		public static final int button_background_drawable = 0x7f020013;
-		public static final int current_position = 0x7f02001c;
-		public static final int dialog_background = 0x7f020025;
-		public static final int folder_closed = 0x7f02002c;
-		public static final int folder_open = 0x7f02002d;
-		public static final int form_text_color = 0x7f02002e;
-		public static final int goto_position = 0x7f020031;
-		public static final int ic_launcher_bluegps = 0x7f020038;
-		public static final int ic_stat_notify = 0x7f020040;
-		public static final int list_down = 0x7f02004d;
-		public static final int list_up = 0x7f02004e;
-		public static final int list_zoomto = 0x7f02004f;
-		public static final int mapsdir_treeview_bkgnd_normal = 0x7f020051;
-		public static final int mapsdir_treeview_bkgnd_pressed = 0x7f020052;
-		public static final int mapsdir_treeview_bkgnd_transparent = 0x7f020053;
-		public static final int mapsdir_treeview_divider = 0x7f020054;
-		public static final int mapsdir_treeview_options_button_bkgnd = 0x7f020055;
-		public static final int package_download = 0x7f020063;
-		public static final int properties = 0x7f020068;
+		public static final int border_1px = 0x7f020011;
+		public static final int border_black_1px = 0x7f020012;
+		public static final int button_background_drawable = 0x7f020014;
+		public static final int current_position = 0x7f02001d;
+		public static final int dialog_background = 0x7f020026;
+		public static final int folder_closed = 0x7f02002d;
+		public static final int folder_open = 0x7f02002e;
+		public static final int form_text_color = 0x7f02002f;
+		public static final int goto_position = 0x7f020032;
+		public static final int ic_launcher_bluegps = 0x7f020039;
+		public static final int ic_stat_notify = 0x7f020041;
+		public static final int list_down = 0x7f02004e;
+		public static final int list_up = 0x7f02004f;
+		public static final int list_zoomto = 0x7f020050;
+		public static final int mapsdir_treeview_bkgnd_normal = 0x7f020052;
+		public static final int mapsdir_treeview_bkgnd_pressed = 0x7f020053;
+		public static final int mapsdir_treeview_bkgnd_transparent = 0x7f020054;
+		public static final int mapsdir_treeview_divider = 0x7f020055;
+		public static final int mapsdir_treeview_options_button_bkgnd = 0x7f020056;
+		public static final int package_download = 0x7f020064;
+		public static final int properties = 0x7f020069;
 	}
 	public static final class id {
 		public static final int aboutview = 0x7f0c0010;

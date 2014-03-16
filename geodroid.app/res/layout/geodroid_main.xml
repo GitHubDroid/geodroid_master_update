@@ -2,15 +2,16 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main_frameLayout"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_marginBottom="@dimen/panic_bar_height"
-        android:background="@color/main_background"
         android:gravity="center_vertical"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:paddingLeft="@drawable/bg" >
 
         <include
             android:id="@+id/action_bar"
@@ -22,7 +23,6 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/main_background"
             android:baselineAligned="false"
             android:orientation="horizontal" >
 
@@ -79,7 +79,6 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/main_background"
             android:baselineAligned="false"
             android:orientation="horizontal" >
 
@@ -136,7 +135,6 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/main_background"
             android:baselineAligned="false"
             android:orientation="horizontal" >
 
@@ -220,7 +218,7 @@
             android:id="@+id/content"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="@color/main_decorations"
+            android:background="@drawable/bg"
             android:baselineAligned="false"
             android:gravity="center_horizontal"
             android:orientation="vertical" >

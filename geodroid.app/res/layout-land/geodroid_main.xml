@@ -8,7 +8,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_marginBottom="@dimen/panic_bar_height"
-        android:background="@color/main_background"
+        android:background="@drawable/bg"
         android:gravity="center_vertical"
         android:orientation="vertical" >
 
@@ -22,7 +22,6 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/main_background"
             android:baselineAligned="false"
             android:orientation="horizontal" >
 
@@ -79,7 +78,6 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/main_background"
             android:baselineAligned="false"
             android:orientation="horizontal" >
 
@@ -136,7 +134,6 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/main_background"
             android:baselineAligned="false"
             android:orientation="horizontal" >
 
