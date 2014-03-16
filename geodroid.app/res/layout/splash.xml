@@ -2,8 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background" >
- 
+    android:background="@drawable/bg" >
+
+ <TextView
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center_horizontal"
+     android:text="Village of Scarsdale"
+     android:textColor="#454528" />
+
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="wrap_content"
@@ -14,11 +21,21 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:textSize="12dp"
-        android:textColor="#454545"
-        android:gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:text="GeoDROID" />
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="GeoDROID moBiLe"
+        android:textColor="#454545"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="INFO-TECH"
+        android:textColor="#454528" />
  
 </RelativeLayout>
